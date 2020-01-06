@@ -1,6 +1,7 @@
 *{
   margin: 0;
-  paddin: 0;
+  padding: 0;
+box-sizing: border-box;
 }
 html,body{
   background-color: #222;
@@ -60,14 +61,15 @@ html,body{
 #tribute-info ul li{
   margin: 1rem 0;
 }
+
 #link{
-  font-weigth: bold;
+  font-weight: bold;
   background-color: #222;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   color: #fff;
 }
 
 #tribute-link{
   text-decoration: none;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,255,255,0.5);
 }
